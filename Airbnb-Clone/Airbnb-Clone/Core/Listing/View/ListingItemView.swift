@@ -18,7 +18,7 @@ struct ListingItemView: View {
             //images
             ListingImageCarouseView()
                 .frame(height: 320)
-                .clipShape(RoundedRectangle(cornerRadius: 20))
+                .clipShape(RoundedRectangle(cornerRadius: 10))
             
             
             // listing views
